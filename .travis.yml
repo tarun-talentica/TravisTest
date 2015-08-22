@@ -2,8 +2,8 @@ language: objective-c
 before_script:
 - ./scripts/update-bundle.sh
 script:
-- xctool -workspace FirstTravis.xcworkspace -scheme FirstTravis -sdk iphonesimulator -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
-#- xctool test -workspace FirstTravis.xcworkspace -scheme FirstTravisTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#- xctool -workspace FirstTravis.xcworkspace -scheme FirstTravis -sdk iphonesimulator -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+- xctool test -workspace FirstTravis.xcworkspace -scheme FirstTravis -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 env:
   global:
   - APP_NAME="FirstTravis"
