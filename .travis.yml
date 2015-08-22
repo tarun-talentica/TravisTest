@@ -1,0 +1,13 @@
+language: objective-c
+before_script:
+- ./scripts/update-bundle.sh
+script:
+- xctool -workspace FirstTravis.xcworkspace -scheme FirstTravis -sdk iphonesimulator -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+#- xctool test -workspace FirstTravis.xcworkspace -scheme FirstTravisTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+env:
+  global:
+  - APP_NAME="FirstTravis"
+  - 'DEVELOPER_NAME="iPhone Distribution: Mattes Groeger"'
+  - PROFILE_NAME="FirstTravis_Ad_Hoc"
+  - INFO_PLIST="FirstTravis/FirstTravis-Info.plist"
+  - BUNDLE_DISPLAY_NAME="FirstTravis CI"

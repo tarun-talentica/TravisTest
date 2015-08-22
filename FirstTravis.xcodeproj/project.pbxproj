@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BDDF2118AC0CDB07F17746E /* libPods-FirstTravisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BF3C88522BB692B93C68EA /* libPods-FirstTravisTests.a */; };
+		8DB9843A1B88BE120090E8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB984391B88BE120090E8BE /* main.m */; };
+		8DB9843D1B88BE120090E8BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9843C1B88BE120090E8BE /* AppDelegate.m */; };
+		8DB984401B88BE120090E8BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9843F1B88BE120090E8BE /* ViewController.m */; };
+		8DB984431B88BE120090E8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB984411B88BE120090E8BE /* Main.storyboard */; };
+		8DB984451B88BE120090E8BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB984441B88BE120090E8BE /* Images.xcassets */; };
+		8DB984481B88BE120090E8BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB984461B88BE120090E8BE /* LaunchScreen.xib */; };
+		8DB984541B88BE130090E8BE /* FirstTravisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB984531B88BE130090E8BE /* FirstTravisTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB9844E1B88BE130090E8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB9842C1B88BE120090E8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB984331B88BE120090E8BE;
+			remoteInfo = FirstTravis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BF3C88522BB692B93C68EA /* libPods-FirstTravisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstTravisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D543317142499790F12B36 /* Pods-FirstTravisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTravisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstTravisTests/Pods-FirstTravisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB984341B88BE120090E8BE /* FirstTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB984381B88BE120090E8BE /* FirstTravis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstTravis-Info.plist"; sourceTree = "<group>"; };
+		8DB984391B88BE120090E8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DB9843B1B88BE120090E8BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DB9843C1B88BE120090E8BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DB9843E1B88BE120090E8BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DB9843F1B88BE120090E8BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DB984421B88BE120090E8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB984441B88BE120090E8BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DB984471B88BE120090E8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DB9844D1B88BE130090E8BE /* FirstTravisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTravisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB984521B88BE130090E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB984531B88BE130090E8BE /* FirstTravisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTravisTests.m; sourceTree = "<group>"; };
+		E6D0D0E0FEA1AAAE76D31B20 /* Pods-FirstTravisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTravisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstTravisTests/Pods-FirstTravisTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB984311B88BE120090E8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9844A1B88BE130090E8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDDF2118AC0CDB07F17746E /* libPods-FirstTravisTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB9842B1B88BE120090E8BE = {
+			isa = PBXGroup;
+			children = (
+				8DB984361B88BE120090E8BE /* FirstTravis */,
+				8DB984501B88BE130090E8BE /* FirstTravisTests */,
+				8DB984351B88BE120090E8BE /* Products */,
+				EEFADC8B34EA12145B6ADEC2 /* Pods */,
+				D1FCA2A103F24222B89DE3F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB984351B88BE120090E8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB984341B88BE120090E8BE /* FirstTravis.app */,
+				8DB9844D1B88BE130090E8BE /* FirstTravisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB984361B88BE120090E8BE /* FirstTravis */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9843B1B88BE120090E8BE /* AppDelegate.h */,
+				8DB9843C1B88BE120090E8BE /* AppDelegate.m */,
+				8DB9843E1B88BE120090E8BE /* ViewController.h */,
+				8DB9843F1B88BE120090E8BE /* ViewController.m */,
+				8DB984411B88BE120090E8BE /* Main.storyboard */,
+				8DB984441B88BE120090E8BE /* Images.xcassets */,
+				8DB984461B88BE120090E8BE /* LaunchScreen.xib */,
+				8DB984371B88BE120090E8BE /* Supporting Files */,
+			);
+			path = FirstTravis;
+			sourceTree = "<group>";
+		};
+		8DB984371B88BE120090E8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB984381B88BE120090E8BE /* FirstTravis-Info.plist */,
+				8DB984391B88BE120090E8BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DB984501B88BE130090E8BE /* FirstTravisTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB984531B88BE130090E8BE /* FirstTravisTests.m */,
+				8DB984511B88BE130090E8BE /* Supporting Files */,
+			);
+			path = FirstTravisTests;
+			sourceTree = "<group>";
+		};
+		8DB984511B88BE130090E8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB984521B88BE130090E8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1FCA2A103F24222B89DE3F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BF3C88522BB692B93C68EA /* libPods-FirstTravisTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEFADC8B34EA12145B6ADEC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27D543317142499790F12B36 /* Pods-FirstTravisTests.debug.xcconfig */,
+				E6D0D0E0FEA1AAAE76D31B20 /* Pods-FirstTravisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB984331B88BE120090E8BE /* FirstTravis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB984571B88BE130090E8BE /* Build configuration list for PBXNativeTarget "FirstTravis" */;
+			buildPhases = (
+				8DB984301B88BE120090E8BE /* Sources */,
+				8DB984311B88BE120090E8BE /* Frameworks */,
+				8DB984321B88BE120090E8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstTravis;
+			productName = FirstTravis;
+			productReference = 8DB984341B88BE120090E8BE /* FirstTravis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB9844C1B88BE130090E8BE /* FirstTravisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB9845A1B88BE130090E8BE /* Build configuration list for PBXNativeTarget "FirstTravisTests" */;
+			buildPhases = (
+				F579F0F7841C876D742C730D /* Check Pods Manifest.lock */,
+				8DB984491B88BE130090E8BE /* Sources */,
+				8DB9844A1B88BE130090E8BE /* Frameworks */,
+				8DB9844B1B88BE130090E8BE /* Resources */,
+				D525C9D870AD8F67F0B2B609 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB9844F1B88BE130090E8BE /* PBXTargetDependency */,
+			);
+			name = FirstTravisTests;
+			productName = FirstTravisTests;
+			productReference = 8DB9844D1B88BE130090E8BE /* FirstTravisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB9842C1B88BE120090E8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tarun;
+				TargetAttributes = {
+					8DB984331B88BE120090E8BE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8DB9844C1B88BE130090E8BE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8DB984331B88BE120090E8BE;
+					};
+				};
+			};
+			buildConfigurationList = 8DB9842F1B88BE120090E8BE /* Build configuration list for PBXProject "FirstTravis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB9842B1B88BE120090E8BE;
+			productRefGroup = 8DB984351B88BE120090E8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB984331B88BE120090E8BE /* FirstTravis */,
+				8DB9844C1B88BE130090E8BE /* FirstTravisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB984321B88BE120090E8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB984431B88BE120090E8BE /* Main.storyboard in Resources */,
+				8DB984481B88BE120090E8BE /* LaunchScreen.xib in Resources */,
+				8DB984451B88BE120090E8BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9844B1B88BE130090E8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D525C9D870AD8F67F0B2B609 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstTravisTests/Pods-FirstTravisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F579F0F7841C876D742C730D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB984301B88BE120090E8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB984401B88BE120090E8BE /* ViewController.m in Sources */,
+				8DB9843D1B88BE120090E8BE /* AppDelegate.m in Sources */,
+				8DB9843A1B88BE120090E8BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB984491B88BE130090E8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB984541B88BE130090E8BE /* FirstTravisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB9844F1B88BE130090E8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB984331B88BE120090E8BE /* FirstTravis */;
+			targetProxy = 8DB9844E1B88BE130090E8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB984411B88BE120090E8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB984421B88BE120090E8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB984461B88BE120090E8BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB984471B88BE120090E8BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB984551B88BE130090E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB984561B88BE130090E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB984581B88BE130090E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstTravis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DB984591B88BE130090E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirstTravis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DB9845B1B88BE130090E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D543317142499790F12B36 /* Pods-FirstTravisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirstTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTravis.app/FirstTravis";
+			};
+			name = Debug;
+		};
+		8DB9845C1B88BE130090E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D0D0E0FEA1AAAE76D31B20 /* Pods-FirstTravisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirstTravisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTravis.app/FirstTravis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB9842F1B88BE120090E8BE /* Build configuration list for PBXProject "FirstTravis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB984551B88BE130090E8BE /* Debug */,
+				8DB984561B88BE130090E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB984571B88BE130090E8BE /* Build configuration list for PBXNativeTarget "FirstTravis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB984581B88BE130090E8BE /* Debug */,
+				8DB984591B88BE130090E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB9845A1B88BE130090E8BE /* Build configuration list for PBXNativeTarget "FirstTravisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB9845B1B88BE130090E8BE /* Debug */,
+				8DB9845C1B88BE130090E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB9842C1B88BE120090E8BE /* Project object */;
+}
